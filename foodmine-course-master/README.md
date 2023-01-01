@@ -184,23 +184,9 @@
            1. Add create Method
         8. Add Auth Interceptor
 
-18. Payment Page
-    1. Generate Component
-    2. Add 'getOrderForCurrentUser' api 
-    3. Add Order Service method
-    4. Connect Component to Service
-    5. Make the map component readonly
 
-19. Adding Paypal
-    1. Generate Component
-       1. Add to payment page
-    2. Get Paypal client Id
-    3. Add Paypal JS to index.html
-    4. Set up Paypal button
-    5. Add Pay api to order router   
-    6. Get Paypal sandbox account
 
-20. Order Track Page
+18. Order Track Page
     1.  Generate Component
         1.  Add to routes
     2.  Add API
@@ -209,19 +195,8 @@
     4.  Add HTML
     5.  Add CSS
 
-21. Deploy On Heroku
-    1.  OutputPath in angular.json
-    2.  package.json
-        1.  frontend
-        2.  backend
-        3.  root
-    3.  BASE_URL in urls.ts
-    4.  Public folder config in server.ts
-    5.  Run commands
-    6.  Add built folder to .gitignore
-    7.  Commit and Push
 
-22. Updating Packages (Optional)
+19. Updating Packages (Optional)
     1.  Install npm-check-upates as a global package
     2.  Run ncu -u in the frontend folder
     3.  Downgrade typescript to version ~4.8.2
